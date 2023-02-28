@@ -10,7 +10,8 @@ class Order():
 
 class Person():
     def __init__(self):
-        self.
+        self.customer_name = ""
+    
         
 print("Hello world")
 
