@@ -11,6 +11,9 @@ class Order():
 class Person():
     def __init__(self):
         self.customer_name = ""
+            self.custumer_name = ""
+    def randomName(self):
+        asCustomers = ["Jefe", "El Guapo", "Lucky Day", "Ned Nederlander", "Dusty Bottoms", "Harry Flugleman", "Carmen", "Invisible Swordsman", "Singing Bush"]
     
         
 print("Hello world")
