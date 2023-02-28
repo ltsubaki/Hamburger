@@ -14,7 +14,7 @@ class Person():
             self.custumer_name = ""
     def randomName(self):
         asCustomers = ["Jefe", "El Guapo", "Lucky Day", "Ned Nederlander", "Dusty Bottoms", "Harry Flugleman", "Carmen", "Invisible Swordsman", "Singing Bush"]
-    
+        return self.asCustomers[randint(0,8)]
         
 print("Hello world")
 
